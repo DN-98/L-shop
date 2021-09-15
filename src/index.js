@@ -9,8 +9,8 @@ import {ProductProvider} from './Context'
 ReactDOM.render(
   <ProductProvider>
     <Router>
-    <App/>
-  </Router>
+      <App/>
+    </Router>
   </ProductProvider>
   ,
   document.getElementById('root')
